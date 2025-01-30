@@ -12,5 +12,8 @@ In the end, I got a bit carried away and implemented things that are not normall
 - Playing in teams
 - Settings to change the color of the paddle, background and ball
 
+Something I struggled with was figuring out how to have the paddle have 5 different sections so the ball can be hit in 5 different directions
+depending on where it hit the paddle.
+In the end, I just decided to create 5 different rectangles and put them together into one paddle and have each of them collide with the ball in their own way
 
 To run the game yourself, download the zip file and run the Pong python file in that folder.
